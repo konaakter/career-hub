@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../All Images/P3OLGJ1 copy 1.png';
 import Job from '../Job/Job';
+import { useLoaderData } from 'react-router-dom';
+import Featured from '../Featured/Featured';
 
 const Home = () => {
 
     const [products, setproructs] = useState([]);
+    const jobdetails = useLoaderData();
     useEffect( () =>{
         fetch('products.json')
         .then(res => res.json())
@@ -21,7 +24,7 @@ const Home = () => {
                    <button className='rounded-md button-primary p-3 mt-5 text-white	'>Get Started</button>
                 </div>
                 <div>
-                    <img className='w-full	' src={logo} alt="" />
+                    <img className='w-full' src={logo} alt="" />
 
 
                 </div>
@@ -42,9 +45,14 @@ const Home = () => {
             <div>
                 <div className='text-center'>
                    <h1 className='text-4xl font-bold'>Featured Jobs</h1>
-                   <p className='text-zinc-500 pt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                   <p className='font-medium text-zinc-500 mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div>
+                <div className='grid grid-cols-2 grid-rows-3 gap-4 mt-16'>
+                    {
+                        jobdetails.map(jobdetail => <Featured
+                        jobdetail={jobdetail}
+                        ></Featured>)
+                    }
 
                 </div>
             </div>
