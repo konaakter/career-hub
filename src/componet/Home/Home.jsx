@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../All Images/P3OLGJ1 copy 1.png';
+import Job from '../Job/Job';
 
 const Home = () => {
 
-    const [job, setjob] = useState([]);
+    const [products, setproructs] = useState([]);
     useEffect( () =>{
         fetch('products.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setproructs(data))
 
     },[])
 
@@ -25,7 +26,17 @@ const Home = () => {
 
                 </div>
             </div>
-            <div>
+            <div className='text-center mt-20'>
+            <h1 className='text-4xl font-bold'>Job Category List</h1>
+            <p className='font-medium text-zinc-500 mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+
+            <div className='grid grid-cols-4 gap-4'>
+            {
+                products.map(product => <Job
+                product={product}
+                ></Job>)
+            }
 
             </div>
         </div>

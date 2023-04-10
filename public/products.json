@@ -2,25 +2,25 @@
     {
         "id": "12df",
         "Categorylogo": "https://i.ibb.co/tm27cY7/accounts-1.png",
-        "Category name": "Account & Finance",
-        "Jobs available": "300 Jobs Available"
+        "CategoryName": "Account & Finance",
+        "Jobsavailable": "300 Jobs Available"
     },
     {
         "id": "98gh",
         "Categorylogo": "https://i.ibb.co/X2wL2Q5/business-1.png",
-        "Category name": "ULTRABOOST 22 SHOES",
-        "Jobs available": "100+ Jobs Available" 
+        "CategoryName": "Creative Design",
+        "Jobsavailable": "100+ Jobs Available" 
     },
     {
         "id": "4rf2",
         "Categorylogo": "https://i.ibb.co/FxnGvkP/social-media-1.png",
-        "Category name": "ULTRABOOST 22 SHOES",
-        "Jobs available": "150 Jobs Available"
+        "CategoryName": "Marketing & Sales",
+        "Jobsavailable": "150 Jobs Available"
     },
     {
         "id": "120y",
         "Categorylogo": "https://i.ibb.co/Jn7Fcdh/chip-1.png",
-        "Category name": "ULTRABOOST 22 SHOES",
-        "Jobs available": "224 Jobs Available"
+        "CategoryName": "Engineering Job",
+        "Jobsavailable": "224 Jobs Available"
     }
 ]
