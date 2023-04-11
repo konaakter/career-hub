@@ -9,22 +9,29 @@ import {
 import Main from './componet/Layout/Main';
 import Home from './componet/Home/Home';
 import About from './componet/About/About';
+import Statistics from './componet/Statistics/Statistics';
+import Errorpage from './componet/Errorpage/Errorpage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
+    errorElement: <Errorpage></Errorpage>,
     children : [
       {
         path: '/',
         element: <Home></Home>,
-        loader:()=> fetch("jobdetails.json")
+        loader:()=> fetch("/jobdetails.json")
 
       },
       {
         path:'about/:ID',
         element: <About></About>,
         loader: ({params}) => fetch("/jobdetails.json")
+      },
+      {
+        path:'Statistics',
+        element:<Statistics></Statistics>
       }
     ]
   }

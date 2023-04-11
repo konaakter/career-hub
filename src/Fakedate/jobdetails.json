@@ -11,7 +11,8 @@
       "EducationRequirements": "Bachelor's degree in Computer Science or related field.",
       "JobExperience": "3+ years of experience in software engineering.",
       "email": "jobs@acme.com",
-      "phone": "+1 (555) 123-4567"
+      "phone": "+1 (555) 123-4567",
+      "Address": " Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
     },
     {
       "ID": 2,
@@ -25,7 +26,8 @@
       "EducationRequirements": "Bachelor's degree in Marketing or related field.",
       "JobExperience": "5+ years of experience in marketing.",
       "email": "jobs@xyzcorp.com",
-      "phone": "+1 (555) 234-5678"
+      "phone": "+1 (555) 234-5678",
+      "Address": " Mirpur Dhaka, Bangladesh"
     },
     {
       "ID": 3,
@@ -39,7 +41,8 @@
       "EducationRequirements": "Bachelor's degree in Graphic Design or related field.",
       "JobExperience": "2+ years of experience in graphic design.",
       "email": "jobs@abcagency.com",
-      "phone": "+1 (555) 345-6789"
+      "phone": "+1 (555) 345-6789",
+      "Address": " Burlington, Canada"
     },
     {
       "ID": 4,
@@ -53,7 +56,9 @@
       "EducationRequirements": "Bachelor's degree in Finance or related field.",
       "JobExperience": "3+ years of experience in financial analysis.",
       "email": "jobs@123inc.com",
-      "phone": "+1 (555) 456-7890"
+      "phone": "+1 (555) 456-7890",
+      "Address": " Burlington, Canada"
+      
     },
     {
       "ID": 5,
@@ -67,7 +72,8 @@
       "EducationRequirements": "Bachelor's degree in Business Administration or related field.",
       "JobExperience": "1+ years of experience in sales.",
       "email": "jobs@bestproductsco.com",
-      "phone": "+1 (555) 567-8901"
+      "phone": "+1 (555) 567-8901",
+      "Address": " Carlisle,UK"
     },
     {
       "ID": 6,
@@ -81,6 +87,7 @@
       "EducationRequirements": "Bachelor's degree in Human Resources or related field.",
       "JobExperience": "5+ years of experience in HR management.",
       "email": "jobs@globalcorp.com",
-      "phone": "+44 20 1234 5678"
+      "phone": "+44 20 1234 5678",
+      "Address": " Birmingham, UK"
     }
   ]
