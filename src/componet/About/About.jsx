@@ -13,25 +13,26 @@ const About = () => {
     console.log(details)
     const {JobDescription, JobResponsibilities, EducationRequirements, JobExperience, Salary, JobTitle, phone, email, Address} = details
     return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto mb-12'>
+        <h1 className='text-4xl font-bold text-center mt-20 mb-36'>Job Details</h1>
                 
         <div className="grid grid-cols-3 gap-8 mt-12 ">
             <div className="col-span-2">
                 <p className='mt-4 text-slate-500'>
-                    <samp className='font-semibold  text-slate-800'>Job Description: </samp>
+                    <samp className='text-black text-xl font-bold'>Job Description: </samp>
                     {JobDescription}.
                 </p>
                 <p className='mt-4 text-slate-500'>
-                    <samp className='font-semibold  text-slate-800'>Job Responsibility: </samp>
+                    <samp className=' text-black text-xl font-bold'>Job Responsibility: </samp>
                     {JobResponsibilities}
                 </p>
-                <p className='mt-4 font-semibold'>
+                <p className='mt-4 text-xl font-bold '>
                     Educational Requirements:
                 </p>
                 <p className='mt-2 text-slate-500'>
                     {EducationRequirements}
                 </p>
-                <p className='mt-4 font-semibold'>
+                <p className='mt-4 text-xl font-bold '>
                     Experiences:
                 </p>
                 <p className='mt-2 text-slate-500'>
@@ -42,24 +43,24 @@ const About = () => {
                 <div className="bg-zinc-100 p-6 rounded-md">
                     <h5 className='font-semibold mb-4 text-lg'>Job Details</h5>
                     <p className='mt-2 text-slate-500'>
-                        <samp className='font-semibold text-slate-800'>Salary : </samp>
+                        <samp className='font-semibold text-slate-800 text-xl'>Salary : </samp>
                         {Salary}
                     </p>
                     <p className='mt-2 text-slate-500'>
-                        <samp className='font-semibold  text-slate-800'>Job Title : </samp>
+                        <samp className='font-semibold  text-slate-800 text-xl'>Job Title : </samp>
                         {JobTitle}
                     </p>
                     <h5 className='font-semibold my-4 text-lg'>Contact Information</h5>
                     <p className='mt-2 text-slate-500'>
-                        <samp className='font-semibold text-base text-slate-800'>Phone : </samp>
+                        <samp className='font-semibold  text-slate-800 text-xl'>Phone : </samp>
                         {phone}
                     </p>
                     <p className='mt-2 text-slate-500'>
-                        <samp className='font-semibold  text-slate-800'>Email : </samp>
+                        <samp className='font-semibold  text-slate-800 text-xl'>Email : </samp>
                        {email}
                     </p>
                     <p className='mt-2 text-slate-500'>
-                        <samp className='font-semibold  text-slate-800'>Address : </samp>
+                        <samp className='font-semibold  text-slate-800 text-xl'>Address : </samp>
                         {Address}
                     </p>
                 </div>
