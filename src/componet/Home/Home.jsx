@@ -7,6 +7,13 @@ import Featured from '../Featured/Featured';
 const Home = () => {
 
     const [products, setproructs] = useState([]);
+    const [showall, setshowall] = useState(false);
+    const handlebutton = () => {
+          
+        setshowall(true)
+
+    }
+
     const jobdetails = useLoaderData();
     useEffect( () =>{
         fetch('products.json')
@@ -42,20 +49,24 @@ const Home = () => {
             }
 
             </div>
+
+
             <div>
                 <div className='text-center'>
                    <h1 className='text-4xl font-bold'>Featured Jobs</h1>
                    <p className='font-medium text-zinc-500 mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
                 <div className='grid grid-cols-2 grid-rows-3 gap-4 mt-16'>
-                    {
-                        jobdetails.map(jobdetail => <Featured
+                     {
+                      jobdetails.map(jobdetail => <Featured
                         jobdetail={jobdetail}
-                        ></Featured>)
+                    ></Featured>)  
                     }
-
                 </div>
             </div>
+            <p onClick={handlebutton} className='text-center'>
+                <button className='rounded-md button-primary p-3 text-white'>See All Jobs</button>
+            </p>
         </div>
     );
 };
