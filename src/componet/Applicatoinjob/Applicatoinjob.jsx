@@ -13,7 +13,7 @@ const Applicatoinjob = (props) => {
                 <h2 className='  text-xl font-bold'>{JobTitle}</h2>
                 <p>{CompanyName}</p>
                 <div className='flex gap-4 pt-2'>
-                <p className='border border-slate-300 p-2 text-zinc-500'>{Remote}</p>
+                <p  className='border border-slate-300 p-2 text-zinc-500'>{Remote}</p>
                 <p className='border border-slate-300 p-2 text-zinc-500'>{FullTime}</p>
                 </div>
                 <div className='flex gap-4 pt-2'>
