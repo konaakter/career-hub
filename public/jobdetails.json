@@ -12,7 +12,10 @@
     "JobExperience": "3+ years of experience in software engineering.",
     "email": "jobs@acme.com",
     "phone": "+1 (555) 123-4567",
-    "Address": " Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    "Address": " Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+    "Remote": "Remote",
+    "FullTime": "Full Time"
+    
   },
   {
     "ID": 2,
@@ -27,7 +30,9 @@
     "JobExperience": "5+ years of experience in marketing.",
     "email": "jobs@xyzcorp.com",
     "phone": "+1 (555) 234-5678",
-    "Address": " Mirpur Dhaka, Bangladesh"
+    "Address": " Mirpur Dhaka, Bangladesh",
+    "Remote": "Onsite",
+    "FullTime": "Full Time"
   },
   {
     "ID": 3,
@@ -42,7 +47,9 @@
     "JobExperience": "2+ years of experience in graphic design.",
     "email": "jobs@abcagency.com",
     "phone": "+1 (555) 345-6789",
-    "Address": " Burlington, Canada"
+    "Address": " Burlington, Canada",
+    "Remote": "Remote",
+    "FullTime": "Full Time"
   },
   {
     "ID": 4,
@@ -57,7 +64,10 @@
     "JobExperience": "3+ years of experience in financial analysis.",
     "email": "jobs@123inc.com",
     "phone": "+1 (555) 456-7890",
-    "Address": " Burlington, Canada"
+    "Address": " Burlington, Canada",
+    "Remote": "Onsite",
+    "FullTime": "Full Time"
+
   },
   {
     "ID": 5,
@@ -72,7 +82,9 @@
     "JobExperience": "1+ years of experience in sales.",
     "email": "jobs@bestproductsco.com",
     "phone": "+1 (555) 567-8901",
-    "Address": " Carlisle,UK"
+    "Address": " Carlisle,UK",
+    "Remote": "Remote",
+    "FullTime": "Full Time"
   },
   {
     "ID": 6,
@@ -87,6 +99,8 @@
     "JobExperience": "5+ years of experience in HR management.",
     "email": "jobs@globalcorp.com",
     "phone": "+44 20 1234 5678",
-    "Address": " Birmingham, UK"
+    "Address": " Birmingham, UK",
+    "Remote": "Onsite",
+    "FullTime": "Full Time"
   }
 ]
