@@ -10,6 +10,7 @@ const Applicatoinjob = (props) => {
             <div className='flex border border-slate-300 p-12 rounded-lg justify-between mt-6 w-9/12 mx-auto'>
                 <img className='w-2/12 h-16'  src= {CompanyLogo} alt="" />
             <div>
+                <h2 className='  text-xl font-bold'>{JobTitle}</h2>
                 <p>{CompanyName}</p>
                 <div className='flex gap-4 pt-2'>
                 <p className='border border-slate-300 p-2 text-zinc-500'>{Remote}</p>

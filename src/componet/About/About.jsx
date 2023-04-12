@@ -38,7 +38,7 @@ const About = () => {
         setDetails(detailsdata)
     },[])
     console.log(details)
-    const {JobDescription, JobResponsibilities, EducationRequirements, JobExperience, Salary, JobTitle, phone, email, Address, ID} = details
+    const {JobDescription, JobResponsibilities, EducationRequirements, JobExperience, Salary, JobTitle, phone, email, CompanyLocation, ID} = details
     return (
     <div className='container mx-auto mb-12'>
        <div className='flex justify-between top-8'>
@@ -100,7 +100,7 @@ const About = () => {
                     <p className='mt-2 text-slate-500 flex'>
                     <MapPinIcon className='h-6 w-6'></MapPinIcon>
                         <samp className='font-semibold  text-slate-800 text-xl'>Address: </samp>
-                        {Address}
+                        {CompanyLocation}
                     </p>
                 </div>
                 <button onClick={ () => handleapplyjob(ID)} className='my-4 py-2 w-full rounded-lg text-white bg-gradient-to-r from-sky-500 to-indigo-500 font-semibold'>Apply Now</button>
